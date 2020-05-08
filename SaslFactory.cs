@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Configuration;
+//using System.Configuration;
 
 namespace S22.Sasl {
 	/// <summary>
@@ -90,13 +90,13 @@ namespace S22.Sasl {
                 { "Srp", typeof(Mechanisms.SaslSrp) }
             };            
             // Register any custom mechanisms configured in the app.config.
-            var configSection = ConfigurationManager.GetSection("saslConfigSection")
-                as SaslConfigurationSection;
-            if (configSection != null) {                
-                foreach(SaslProvider provider in configSection.SaslProviders) {
-                    mechanisms.Add(provider.Name, Type.GetType(provider.Type));
-                }
-            }
+            //var configSection = ConfigurationManager.GetSection("saslConfigSection")
+            //    as SaslConfigurationSection;
+            //if (configSection != null) {                
+            //    foreach(SaslProvider provider in configSection.SaslProviders) {
+            //        mechanisms.Add(provider.Name, Type.GetType(provider.Type));
+            //    }
+            //}
 		}
 	}
 }

@@ -165,3 +165,6 @@ pip-log.txt
 
 # Mac crap
 .DS_Store
+*.old
+/.vs/S22.Sasl/v16/Server/sqlite3
+/.vs/S22.Sasl/DesignTimeBuild

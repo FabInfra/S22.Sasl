@@ -274,7 +274,7 @@ namespace S22.Sasl.Mechanisms {
 				{ "SHA-256", typeof(SHA256Managed) },
 				{ "SHA-384", typeof(SHA384Managed) },
 				{ "SHA-512", typeof(SHA512Managed) },
-				{ "RIPEMD-160", typeof(RIPEMD160Managed) },
+				//{ "RIPEMD-160", typeof(RIPEMD160Managed) },
 				{ "MD5", typeof(MD5CryptoServiceProvider) }
 			};
 			foreach (KeyValuePair<string, Type> p in l) {
