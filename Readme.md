@@ -1,3 +1,15 @@
+# COMMENTED by Kaleyroy
+
+## Upgrade project to netstandard2 & Fixed DIGEST-MD5 issue
+
+1. Support netcore (Upgrade netfx45 to netstandard2)
+2. Removed System.Configuration dependency (Netfx legacy)
+3. Removed RIPEMD-160 algorithm (Not supported in netcore)
+4. Fixed DIGEST-MD5 issue (Please refer to https://github.com/smiley22/S22.Sasl/pull/3)
+5. Excluded /Tests folder from project (For building only)
+
+-----------------------------------------------------------------------------------
+
 ### Introduction
 
 This repository contains a .NET assembly implementing the "Authentication and Security Layer" (SASL)
