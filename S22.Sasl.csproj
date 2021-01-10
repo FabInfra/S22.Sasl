@@ -3,6 +3,11 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <OutputType>Library</OutputType>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>S22.Sasl.DotNetCore</AssemblyName>
+    <PackageId>S22.Sasl.DotNetCore</PackageId>
+    <Authors>S22.Sasl, kaleyroy, kjkriegel</Authors>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DocumentationFile>bin\Debug\S22.Sasl.XML</DocumentationFile>
